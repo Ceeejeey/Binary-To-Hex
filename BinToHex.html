@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary to Hexadecimal Converter</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="converter">
+        <h1>Binary to Hexadecimal Converter</h1>
+        <div class="line"></div>
+        
+        <label for="binary">Input:</label><input type="text" id="binary" placeholder="Enter binary number" oninput="checkBinary()">
+        <p id="alert" class="alert"></p>
+        
+        <button id="convert" onclick="convert()">Convert</button>
+        <br><br>
+
+        <label for="hexa">Output(16):</label><input type="text" id="hexa" readonly>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
